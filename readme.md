@@ -8,7 +8,7 @@
 
 # how to host on heroku
     1. git init the project
-    2. pip3 install guniorn
+    2. pip3 install gunicorn
     3. pip3 freeze > requirements.txt
     4. touch Profile. Inside procfile 'web: gunicorn app:app'
     5. heroku login
